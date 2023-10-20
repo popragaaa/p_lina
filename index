@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+<meta charset="UTF-8"/>
+
+<title>Елемент форми<title>
+<head>
+<body>
+<h3>Використання форм для внесення даних<h3>
+
+<form>
+Прізвище:
+<input type= "text" name= "lastname" placeholder= "Введіть ваше прізвище">
+<br><br>
+
+Місце проживання:
+<input list= "cities" name= "city" >
+<datalist id ="cities">
+<option value="Одеса"></option>
+<option value= "Миколаїв"></option>
+<option value= "Дніпро"></option>
+<option value= "Львів"></option>
+<option value= "Івано-Франківськ"></option>
+<option value= "Вінниця"></option>
+</datalist>
+
+<input type= "submit" value="Надіслати">
+</form>
+</body>
+</html>
